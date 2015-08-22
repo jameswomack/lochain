@@ -1,0 +1,36 @@
+{
+  "name": "lochain",
+  "version": "1.0.0-pre0",
+  "description": "Enable _.chain when using lodash modularity-style",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/lochain.git"
+  },
+  "keywords": [
+    "lodash",
+    "chain",
+    "modular"
+  ],
+  "author": "James Womack <james@womack.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/lochain/issues"
+  },
+  "homepage": "https://github.com/jameswomack/lochain#readme",
+  "devDependencies": {
+    "chai": "3.2.0",
+    "clear-require": "1.0.1",
+    "esprima-fb": "15001.1001.0-dev-harmony-fb",
+    "lodash.pick": "3.1.0",
+    "lodash.reduce": "3.1.2",
+    "lodash.values": "3.0.0",
+    "mocha": "2.2.5"
+  },
+  "dependencies": {
+    "verror": "1.6.0"
+  }
+}
